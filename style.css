@@ -127,7 +127,7 @@ padding: 0;
     position: fixed;
     TOP: 20px;
     right: 20px;
-    background-color: var(--color-principal);
+    background-color: var(--color-secundario);
     width: 60px;
     height: 60px;
     border-radius: 50%;
