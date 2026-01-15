@@ -27,6 +27,7 @@ body {
     box-sizing: border-box;
     min-width: 320px;
     overflow-x: unset;
+    overflow-x: hidden;
 
 }
 
