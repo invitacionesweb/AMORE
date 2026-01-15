@@ -596,9 +596,9 @@ padding: 0;
 }
 
 /* en vez de padding-left/right */
-.historia1 { transform: rotate(-8deg) translateX(-20px); }
-.historia2 { transform: rotate( 8deg) translateX( 20px); }
-.historia3 { transform: rotate(-8deg) translateX(-20px); }
+.historia1 { transform: rotate(-8deg)  }
+.historia2 { transform: rotate( 8deg)  }
+.historia3 { transform: rotate(-8deg)  }
 
 /* opcional: evitá 100vw si te da scroll */
 .timeline { width: 100%; }
