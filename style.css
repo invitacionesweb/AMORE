@@ -594,24 +594,15 @@ padding: 0;
 .historia__item {
   overflow: hidden;
 }
-
-/* en vez de padding-left/right */
-.historia1 { transform: rotate(-8deg)  }
-.historia2 { transform: rotate( 8deg)  }
-.historia3 { transform: rotate(-8deg)  }
-
-/* opcional: evitá 100vw si te da scroll */
-.timeline { width: 100%; }
-
-  .historia__title {
-    font-size: 42px;
-    margin-bottom: 24px;
-  }
+.historia1 .historia3 {
+    padding: 20px;
+    rotate: 8deg;
 }
 
-
-
-
+.historia2  {
+    padding: 20px;
+    rotate: -8deg;
+}
 
 
 
