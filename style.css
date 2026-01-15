@@ -601,25 +601,13 @@ padding: 0;
   }
 }
 
-
-.historia1 {
-    rotate: -8deg;
-    padding-right:80px ;
-    overflow-x: hidden;
+.historia__item {
+  overflow: hidden; /* recorta bordes por la rotación dentro del item */
 }
 
-.historia2 {
-    rotate: 8deg;
-    padding-left:80px ;
-    overflow-x: hidden;
-  
-}
-
-.historia3 {
-    rotate: -8deg;
-    padding-right:80px ;
-    overflow-x: hidden;
-}
+.historia1 { transform: rotate(-8deg) translateX(-20px); }
+.historia2 { transform: rotate( 8deg) translateX( 20px); }
+.historia3 { transform: rotate(-8deg) translateX(-20px); }
 
 
 
