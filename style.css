@@ -583,38 +583,31 @@ padding: 0;
 
 /* 💻 Desktop: 3 en fila */
 @media (min-width: 900px) {
-  .historia {
-    padding: 60px 24px;
-    max-width: 1100px;
-    margin: 0 auto;
-  }
+.historia {
+  overflow-x: hidden; /* o clip */
+}
 
-  .historia__grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-    align-items: start;
-  }
+.historia__grid {
+  gap: 12px; /* no negativo */
+}
+
+.historia__item {
+  overflow: hidden;
+}
+
+/* en vez de padding-left/right */
+.historia1 { transform: rotate(-8deg) translateX(-20px); }
+.historia2 { transform: rotate( 8deg) translateX( 20px); }
+.historia3 { transform: rotate(-8deg) translateX(-20px); }
+
+/* opcional: evitá 100vw si te da scroll */
+.timeline { width: 100%; }
 
   .historia__title {
     font-size: 42px;
     margin-bottom: 24px;
   }
 }
-
-.historia__item {
-  overflow: hidden; /* recorta bordes por la rotación dentro del item */
-}
-
-.historia1 { transform: rotate(-8deg) translateX(-20px); }
-.historia2 { transform: rotate( 8deg) translateX( 20px); }
-.historia3 { transform: rotate(-8deg) translateX(-20px); }
-
-
-
-
-
-
-
 
 
 
